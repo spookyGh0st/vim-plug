@@ -39,7 +39,7 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 You can automate the process by putting the command in your Vim configuration
 file as suggested [here][auto].
 
-[auto]: https://github.com/spookyGh0st/vim-plug/wiki/tips#automatic-installation
+[auto]: https://github.com/junegunn/vim-plug/wiki/tips#automatic-installation
 
 ###### Windows (PowerShell)
 
