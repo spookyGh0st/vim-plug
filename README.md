@@ -18,13 +18,13 @@ A minimalist Vim plugin manager.
 - Post-update hooks
 - Support for externally managed plugins
 
-[40/4]: https://raw.githubusercontent.com/junegunn/i/master/vim-plug/40-in-4.gif
+[40/4]: https://raw.githubusercontent.com/spookyGh0st/i/master/vim-plug/40-in-4.gif
 [nv]: http://neovim.org/
-[startup-time]: https://github.com/junegunn/vim-startuptime-benchmark#result
+[startup-time]: https://github.com/spookyGh0st/vim-startuptime-benchmark#result
 
 ### Installation
 
-[Download plug.vim](https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim)
+[Download plug.vim](https://raw.githubusercontent.com/spookyGh0st/vim-plug/master/plug.vim)
 and put it in the "autoload" directory.
 
 #### Vim
@@ -33,18 +33,18 @@ and put it in the "autoload" directory.
 
 ```sh
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
-    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+    https://raw.githubusercontent.com/spookyGh0st/vim-plug/master/plug.vim
 ```
 
 You can automate the process by putting the command in your Vim configuration
 file as suggested [here][auto].
 
-[auto]: https://github.com/junegunn/vim-plug/wiki/tips#automatic-installation
+[auto]: https://github.com/spookyGh0st/vim-plug/wiki/tips#automatic-installation
 
 ###### Windows (PowerShell)
 
 ```powershell
-iwr -useb https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim |`
+iwr -useb https://raw.githubusercontent.com/spookyGh0st/vim-plug/master/plug.vim |`
     ni $HOME/vimfiles/autoload/plug.vim -Force
 ```
 
@@ -54,20 +54,20 @@ iwr -useb https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim |`
 
 ```sh
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
-       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+       https://raw.githubusercontent.com/spookyGh0st/vim-plug/master/plug.vim'
 ```
 
 ###### Linux (Flatpak)
 
 ```sh
 curl -fLo ~/.var/app/io.neovim.nvim/data/nvim/site/autoload/plug.vim \
-    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+    https://raw.githubusercontent.com/spookyGh0st/vim-plug/master/plug.vim
 ```
 
 ###### Windows (PowerShell)
 
 ```powershell
-iwr -useb https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim |`
+iwr -useb https://raw.githubusercontent.com/spookyGh0st/vim-plug/master/plug.vim |`
     ni "$env:LOCALAPPDATA/nvim-data/site/autoload/plug.vim" -Force
 ```
 
